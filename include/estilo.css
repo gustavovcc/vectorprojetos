@@ -1,0 +1,154 @@
+.body         { 
+font-family: Verdana; 
+font-size: 1; 
+vertical-align: middle; 
+font-weight: bold 
+width: 60%;
+
+
+}
+.textos            { font-family: Verdana; 
+font-size: 10px; 
+font-weight: bold; 
+color:#000000;
+width: 72%;
+}
+.textos_escolha            { font-family: Verdana; font-size: 10px; font-weight: normal; color:#000000 }
+.textos_brancos            { font-family: Verdana; font-size: 10px; font-weight: bold; color:#FFFFFF }
+.textos_vermelhos            { font-family: Verdana; font-size: 10px; font-weight: bold; color:#FF0000 }
+button       { color: #800080; border: 1px solid #C0C0C0; padding-left: 4px; padding-right: 
+               4px; padding-top: 1px; padding-bottom: 1px }
+.textoform {
+	font-family: Verdana;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	clear: none;
+	float: none;
+	height: auto;
+	width: auto;
+	border: 2px ridge #005FA9;
+}
+.textoform2 {
+	font-family: Verdana;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold; 
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	clear: none;
+	float: none;
+	height: auto;
+	width: auto;
+	border: none;
+	background-color: #FFFDDE;
+	
+}
+.checkit {
+	font-family: Verdana;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #ffffff;
+	clear: none;
+	float: none;
+	height: auto;
+	width: auto;
+	border: 2px ridge #FF9933;
+	background-color: #FF0000;
+}
+
+.calBordas
+{
+    border:1px outset; WIDTH: 190px;
+    POSITION: absolute;
+    HEIGHT: 130px;
+    BACKGROUND-COLOR: silver; font-family:Verdana; font-size:10px; text-decoration:none
+}
+
+a.links_pretos:link      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	font-weight: bold; 
+	color:#000000;
+ }
+a.links_pretos:hover      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	font-weight: bold; 
+	color:#000000;
+ }
+a.links_pretos:visited      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	font-weight: bold; 
+	color:#000000;
+ }
+
+.textos_normais            { font-family: Verdana; font-size: 10px; color:#000000 }
+.textos_grande            { font-family: Verdana; font-size: 30px; color:#FF9900 }
+.textos_medio            { font-family: Verdana; font-size: 12px; color:#000000 }
+
+a.links_brancos:link      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	font-weight: bold; 
+	color:#FFFFFF;
+ }
+a.links_brancos:hover      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	font-weight: bold; 
+	color:#000000;
+ }
+a.links_brancos:visited      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	font-weight: bold; 
+	color:#FFFFFF;
+ }
+
+.voltar            { font-family: Verdana; font-size: 10px; color:#FF9900; font-weight: bold; }
+
+a.links_tradicionais:link      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	color:#000000;
+ }
+a.links_tradicionais:hover      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	color:#000000;
+ }
+a.links_tradicionais:visited      
+{ 
+	font-family: Verdana; 
+	font-size: 10px; 
+	text-decoration: none; 
+	color:#000000;
+ }

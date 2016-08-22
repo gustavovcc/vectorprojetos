@@ -1,0 +1,67 @@
+.calPrincipal
+{
+    FONT-SIZE: 9px;
+    FONT-FAMILY: Tahoma, Verdana, Arial
+}
+.calDiaOutroMes
+{
+    WIDTH: 22px;
+    COLOR: gray;
+    HEIGHT: 16px
+}
+.calDiadoMes
+{
+    BORDER-RIGHT: white 1px inset;
+    BORDER-TOP: white 1px inset;
+    BORDER-LEFT: white 1px inset;
+    WIDTH: 22px;
+    CURSOR: hand;
+    COLOR: white;
+    BORDER-BOTTOM: white 1px inset;
+    HEIGHT: 16px;
+    TEXT-ALIGN: center
+}
+.calDiaSelecao
+{
+    BORDER-RIGHT: #6666cc 1px;
+    BORDER-TOP: #6666cc 1px;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: #6666cc 1px;
+    WIDTH: 22px;
+    CURSOR: hand;
+    COLOR: red;
+    BORDER-BOTTOM: #6666cc 1px;
+    HEIGHT: 16px;
+    TEXT-ALIGN: center
+}
+.calDiaSemana
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    WIDTH: 22px;
+    COLOR: white;
+    HEIGHT: 16px;
+    TEXT-ALIGN: center
+}
+.calAno
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: white
+}
+.calBordas
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    Z-INDEX: 100;
+    BORDER-LEFT: 1px outset;
+    WIDTH: 190px;
+    BORDER-BOTTOM: 1px outset;
+    POSITION: absolute;
+    HEIGHT: 130px;
+    BACKGROUND-COLOR: silver
+}
+IMG.calSetas
+{
+    CURSOR: hand
+}

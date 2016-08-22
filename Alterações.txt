@@ -1,0 +1,35 @@
+SELECT * FROM SIS_USUARIOS WHERE ACESSO = 'TECNICA' ORDER BY NOME
+
+    <option value="DVR HD PLUS SHR26"<% If Modelo = "DVR HD PLUS SHR26" Then %> selected <%End If%>>DVR HD PLUS SHR26</option>
+    <option value="HD SLIM SH26"<% If Modelo = "HD SLIM SH26" Then %> selected <%End If%>>HD SLIM SH26</option>
+    <option value="DIGITAL S14"<% If Modelo = "DIGITAL S14" Then %> selected <%End If%>>DIGITAL S14</option>
+    <option value="ZAPPER SH20"<% If Modelo = "ZAPPER SH20" Then %> selected <%End If%>>ZAPPER SH20</option>
+
+   <%
+If Session("Acesso") = "Administrador" Then
+Sub ComboTecnico
+%>
+    <!--#include file="AbreConexao.asp"-->
+    <%
+	SQLTecnico = " SELECT DISTINCT TalkIzy.dbo.Usuarios.Nome FROM TalkIzy.dbo.Usuarios INNER JOIN"
+	SQLTecnico = SQLTecnico & " TalkIzy.dbo.Funcoes ON TalkIzy.dbo.Usuarios.IDFuncao = TalkIzy.dbo.Funcoes.ID CROSS JOIN "
+	SQLTecnico = SQLTecnico & " tbEstoqueEquipamentos WHERE (TalkIzy.dbo.Usuarios.Status = 1) AND "
+	SQLTecnico = SQLTecnico & " (TalkIzy.dbo.Funcoes.Funcoes IN ('Técnico de Instalação')) "
+	Set RSBUSCAComboTecnico = server.createobject("ADODB.Recordset")
+	RSBUSCAComboTecnico.Open SQLTecnico, Conexao
+
+	Do While Not RSBUSCAComboTecnico.EOF
+%>
+    <option value="<%=RSBUSCAComboTecnico("Nome")%>"><%=RSBUSCAComboTecnico("Nome")%></option>
+    <%
+		RSBUSCAComboTecnico.MoveNext
+	Loop
+RSBUSCAComboTecnico.Close
+Set SQLTecnico = Nothing
+Set Conexao = Nothing
+End Sub
+ComboTecnico
+
+End If
+%>
+

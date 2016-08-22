@@ -1,0 +1,176 @@
+\TD
+{
+	FONT-SIZE: 11px;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	LETTER-SPACING: -0.3pt;
+	color: #000;
+	text-align: left;
+}
+.erro
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+SELECT
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #f0f0f0
+}
+.formbutton
+{
+	BORDER-RIGHT: #666666 1px solid;
+	BORDER-TOP: #666666 1px solid;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	BORDER-LEFT: #666666 1px solid;
+	COLOR: #ffffff;
+	BORDER-BOTTOM: #666666 1px solid;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BACKGROUND-COLOR: #0080C0
+}
+.formfield
+{
+    BORDER-RIGHT: 1px solid;
+    BORDER-TOP: 1px solid;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    BORDER-LEFT: 1px solid;
+    COLOR: #002b4c;
+    BORDER-BOTTOM: 1px solid;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.minicaption
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #006666;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.logoff
+{
+    FONT-SIZE: xx-small;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.caption2
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #002b4c;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.caption
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.text
+{
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.text2
+{
+    FONT-SIZE: 15px;
+    COLOR: #2e8b57;
+    FONT-FAMILY: Verdana,Arial;
+}
+A.atendentes:hover
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana;
+    COLOR: #2e8b57;
+    FONT-WEIGHT: bold;
+}
+A.atendentes:link
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none;
+    COLOR: #2e8b57;
+    FONT-WEIGHT: bold;
+}
+A.atendentes:visited
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none;
+    COLOR: #2e8b57;
+    FONT-WEIGHT: bold;
+}
+.calBordas
+{
+    BORDER-RIGHT: 1px outset;
+    BORDER-TOP: 1px outset;
+    BORDER-LEFT: 1px outset;
+    WIDTH: 190px;
+    BORDER-BOTTOM: 1px outset;
+    POSITION: absolute;
+    HEIGHT: 130px;
+    BACKGROUND-COLOR: silver
+}
+.documentos
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.pontuacao
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 15px;
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica
+}
+A.topo:hover
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana;
+    COLOR: black;
+}
+A.topo:link
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none;
+    COLOR: black;
+}
+A.topo:visited
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana;
+    TEXT-DECORATION: none;
+    COLOR: black;
+}
+html, body {
+  height: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+#map_canvas {
+  height: 50%;
+}
+
+@media print {
+  html, body {
+    height: auto;
+  }
+
+  #map_canvas {
+    height: 450px;
+    width: 300px;
+  }
+}
+.LetrasGrandes {
+	font-size: 60px;
+}
