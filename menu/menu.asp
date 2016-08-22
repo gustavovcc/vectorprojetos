@@ -201,14 +201,9 @@ TxAtend = FormatNumber(TxAtend,2,-1,0,-2)
 Loop
 %>
 </table>
-
 </td>
   </tr>
 </table>
-
-
-
 </div>
-
 </body>
 </html>

@@ -27,7 +27,6 @@ End If
   <tr>
     <td width="25%" align="left" valign="top">
     <IFRAME src="menu/menu.asp" width="450" height="1150" scrolling="no" frameborder="0" align="left"></IFRAME> 
-      
  </td>
     <td width="30%" align="center" valign="top">
     <IFRAME src="mensagem.asp" width="300" height="300" scrolling="no" frameborder="0" align="center"></IFRAME> 
